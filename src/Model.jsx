@@ -17,8 +17,8 @@ export default function Model(props) {
 
     tl
     .to(model.current.rotation, {
-      y: Math.PI * 0.5,
-      x: Math.PI / 4,
+      y: Math.PI * 1.5,
+      x: Math.PI / 4.6,
       scrollTrigger: {
         trigger: ".two",
         start: "top bottom",
