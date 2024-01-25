@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useGLTF } from "@react-three/drei";
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
